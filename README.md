@@ -8,6 +8,7 @@ You can reach the code used to scrape job postings in [here](linkedin_job_scrapi
 
 You can find the data [here](filtered_linkedin_jobs.csv)
 
+You can find the full dashboard in [here](https://docs.google.com/spreadsheets/d/1NYf9Ll2sCWqJ2ETyfHbz9RFF7uMYKzGiNMjO_9c4upw/edit?usp=drive_link)
 
 # Information about Data
 
@@ -39,15 +40,21 @@ Based on the comprehensive web scraping analysis of LinkedIn job postings, the d
 
 The Turkish data analyst job market demonstrates a clear hierarchy of technology demands, with foundational tools dominating the landscape. SQL leads with 39 mentions (76% of positions), followed by Excel (32), Python (24), and Power BI (23), establishing these as the core skill set that defines most data analyst roles. Emerging technologies show moderate adoption, with Tableau (19), ETL processes (16), and Qlik (13) gaining traction as organizations evolve their data practices. Advanced technologies like Machine Learning, AWS, and Azure (5-8 mentions each) represent niche demands, while big data tools remain rarely requested, indicating the market hasn't yet fully embraced large-scale data processing capabilities. This distribution suggests a market still rooted in traditional analysis but gradually incorporating modern visualization and cloud technologies.
 
+![Tools](images/most_required_tools.png)
+
 
 # Geographic Distribution Analysis
 
-The data analyst job market in Turkey shows extreme geographic centralization, with Istanbul dominating 47 positions (92.2%) while Ankara and Antalya each offer only 2 positions (3.9%). This concentration reflects Istanbul's role as Turkey's financial and technological hub, where major corporations establish their data operations. The centralized nature effectively requires relocation to Istanbul for career advancement, suggesting limited remote work options and potentially contributing to talent drain from other regions. This geographic imbalance creates challenges for both job seekers outside Istanbul and companies in other cities seeking qualified data analysts.
+The data analyst job market in Turkey shows extreme geographic centralization, with Istanbul dominating 47 positions (92.2%) while Antalya offer only 2 positions (3.9%). This concentration reflects Istanbul's role as Turkey's financial and technological hub, where major corporations establish their data operations. The centralized nature effectively requires relocation to Istanbul for career advancement, suggesting limited remote work options and potentially contributing to talent drain from other regions. This geographic imbalance creates challenges for both job seekers outside Istanbul and companies in other cities seeking qualified data analysts.
+
+![Location](images/jobs_per_location.png)
 
 
 # Competition Landscape Analysis
 
 The data analyst job market in Turkey presents an exceptionally competitive environment, with 41 positions (80.4%) attracting over 200 applicants each, while only 1 position (2.0%) receives fewer than 25 applications. This intense competition suggests that data analysis has become a highly desirable career path, potentially driven by growth prospects and the increasing digitalization of Turkish businesses. The high application volumes indicate strong interest in the field but may also reflect a gap between the number of interested candidates and those possessing the specific technical skills employers seek. This competitive landscape requires job seekers to develop strong differentiation strategies through specialized skills and compelling application narratives to stand out among hundreds of other candidates.
+
+![Applicants](images/number_of_applicants.png)
 
 
 # Hiring Activity Patterns
@@ -56,10 +63,13 @@ The data analyst job market in Turkey presents an exceptionally competitive envi
 
 The temporal distribution of job postings reveals interesting patterns in hiring activity that suggest both seasonal trends and market dynamics. Positions posted within the last week show peak activity with 14 openings, indicating either a surge in hiring demand or the natural cycle of companies refreshing their recruitment efforts. The combined 20 positions posted 2-3 weeks ago demonstrate sustained market demand, suggesting that data analyst hiring isn't merely a temporary spike but represents consistent organizational needs across multiple companies. The declining frequency of postings for positions older than 4 weeks follows normal market cycles, where older postings either get filled, expire, or companies pause their recruitment efforts to evaluate existing candidates.
 
+![Date](images/jobs_per_date.png)
+
 ## Company Hiring Behavior
 
 The analysis of company hiring patterns reveals intriguing insights about organizational growth and talent strategies in the data analytics space. OBSS and GALIGO each show the highest activity with 3 positions posted, while sahibinden.com, Garanti BBVA Teknoloji, and DeFacto each maintain 2 active listings, indicating significant investment in data analytics capabilities. This pattern of multiple postings from single companies suggests several possible scenarios: rapid team expansion as these organizations scale their data operations, high turnover rates requiring frequent replacement hiring, or the existence of multiple specialization areas within data analyst roles that require different skill sets and experience levels. The prevalence of repeat hiring also indicates that these companies have either identified data analytics as a critical growth area requiring substantial human resources investment or are experiencing challenges in retaining data analysts, possibly due to competitive market conditions or rapid career advancement opportunities that lead to frequent departures.
 
+![Multiple Listings](images/multiple_job_listings.png)
 
 # Conclusion
 
